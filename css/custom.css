@@ -534,6 +534,9 @@ button.close-btn {
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+  .nav-brand img{
+    width: 130px;
+  }
   #button {
     width: 50px;
     height: 50px;
@@ -568,14 +571,14 @@ button.close-btn {
   }
 
   .label-entry img {
-    height: 100px;
+    height: 74px;
     width: 100%;
     object-fit: contain;
   }
 
   .label-entry h2 {
-    font-size: 20px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 16px;
   }
 
   .img-block-map img {
