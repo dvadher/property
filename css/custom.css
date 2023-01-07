@@ -530,7 +530,24 @@ button.close-btn {
 .location-row {
   min-height: 245px;
 }
-
+.fixed-social-icons {
+  position: fixed;
+  top: 300px;
+}
+.fixed-social-icons a {
+  background: red;
+  padding: 6px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.fixed-social-icons a i:before {
+  color: #fff;
+  font-size: 16px;
+}
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
