@@ -264,10 +264,12 @@ a:hover {
   width: 230px;
   transition: all 0.5s ease 0s !important;
 }
+
 .custom-header.sticky .nav-brand img {
   width: 120px;
   transition: all 0.5s ease 0s !important;
 }
+
 /* .page-content {
   padding-top: 65px;
 } */
@@ -275,6 +277,7 @@ a:hover {
   position: absolute;
   right: 0;
   width: 50% !important;
+  top: 0
 }
 
 .map-block iframe {
@@ -313,7 +316,7 @@ section.sponser img,
 
 .custom-header.sticky .navbar {
   background: #fff;
-      padding: 8px 0px;
+  padding: 8px 0px;
 }
 
 .banner {
@@ -331,7 +334,7 @@ section.sponser img,
 }
 
 .banner-content {
-  padding-top: 130px;
+  padding-top: 150px;
 }
 
 .img-block-couple {
@@ -377,6 +380,7 @@ section.sponser img,
   font-weight: 700;
   font-size: 50px;
   line-height: 45px;
+  text-transform: uppercase;
 }
 
 .banner-heading {
@@ -521,6 +525,7 @@ button.close-btn {
   border-radius: 0;
   border-top-right-radius: 30px;
   cursor: pointer;
+  z-index: 99999999;
 }
 
 .custom-footer {
@@ -530,10 +535,12 @@ button.close-btn {
 .location-row {
   min-height: 245px;
 }
+
 .fixed-social-icons {
   position: fixed;
   top: 300px;
 }
+
 .fixed-social-icons a {
   background: red;
   padding: 6px 22px;
@@ -544,16 +551,35 @@ button.close-btn {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
+
 .fixed-social-icons a i:before {
   color: #fff;
   font-size: 16px;
 }
+
+/* Changes */
+.tagline {
+  font-size: 1.125rem !important;
+}
+.text-shadow{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
-  .nav-brand img{
+  .fixed-social-icons {
+    top: 120px;
+    z-index: 9;
+  }
+
+  .fixed-social-icons a {
+    padding: 6px 12px;
+  }
+
+  .nav-brand img {
     width: 130px;
   }
+
   #button {
     width: 50px;
     height: 50px;
@@ -624,7 +650,8 @@ button.close-btn {
   }
 
   .label-entry {
-    left: 0;
+    left: 10%;
+    bottom: -20px;
   }
 
   .banner-heading {
