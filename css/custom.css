@@ -240,7 +240,7 @@ a:hover {
 
 .copyright {
   background: #919191;
-  padding: 18px 0px;
+  padding: 12px 0px;
   margin-top: 30px;
 }
 
@@ -282,10 +282,6 @@ a:hover {
 
 .map-block iframe {
   width: 100%;
-}
-
-.sponser-left-content {
-  border-right: 1px solid #939393;
 }
 
 section.sponser {
@@ -398,11 +394,11 @@ section.sponser img,
   transform: rotate(-90deg);
   top: 300px;
   position: fixed;
-  right: -110px;
+  right: -100px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  height: 37px;
+  height: 55px;
   cursor: pointer;
   padding: 0px 22px;
   letter-spacing: 0.05em;
@@ -564,12 +560,26 @@ button.close-btn {
 .text-shadow{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.contact-block a {
+  font-size: 1.125rem;
+}
+.banner-heading h1, .banner-heading p {
+  font-family: 'Hind Vadodara', sans-serif !important;
+}
+label span {
+  color: #b20c00;
+}
+section.associate-sponser .img-block, .row.logo-block .img-block, .row.co-sponser .img-block, .row.premium-sponser .img-block{
+  text-align:center;
+}
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+
   .fixed-social-icons {
-    top: 120px;
+    top: auto;
     z-index: 9;
+    bottom: 30px;
   }
 
   .fixed-social-icons a {
@@ -690,8 +700,9 @@ button.close-btn {
     height: 80px;
   }
 
-  section.associate-sponser .img-block {
+  section.associate-sponser .img-block, .row.logo-block .img-block, .row.co-sponser .img-block, .row.premium-sponser .img-block {
     margin-bottom: 20px;
+    text-align: center;
   }
 
   .sponser-left-content .flex-content {

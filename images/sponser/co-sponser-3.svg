@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="250" height="250">
+	<title>co-sponser-3</title>
+	<defs>
+		<image  width="250" height="250" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6BAMAAAB6wkcOAAAAAXNSR0IB2cksfwAAABtQTFRFzMzMf39/TExMGRkZAAAAsrKyMzMzZmZmmZmZrjtD2gAAAnpJREFUeJzt1jFP20AUwPEzcLFHpIbMUWmjjiWNkhWw03h0m1RlLDSFjlQgyuhKAeVj973zGRyRoLb20OH/kxI/Lk/3/C53DsYAAAAAAAAAAAAAAAAAAAAAAAAAAAA0I9hP+plcO+diV4Lwa/zmmbxA80515GbQz2sWj+Ify86RBL2fQmaz725/zS83521dSN6tBNPRsjOpW13bvZaqZ35g+5v0d7Q5r9X1I0NZifZuzfKuosx44eNrXd79zXktvy7hWN623jZQPZRJRj5219n6njRv21d3V/t0kf6t+kERRqm+F8trczeSrVb3N7ZwH56Z+nRW30VwWA5I7O5kcbmSt+Ort937VQPVtdXULrXJ8MvjPbhdFk1W83bykzuNbyr3UM8iN3YyT2LpcstVj8ZuPExXWnerPbtJEt0bvWIkM7Wdy3cc75kPQ6nerVSX5quta56ZHWT2hdziy6aqB1orl9f00u+3snqYVlt3eZG87Kjcbw1UX5TnS3bVyspL85N1ebrZmlp52y8jKeqrH5YF03V5WtRXr1vcTLsP86f+rIX+GRZNdNs/yTOz3J+12ifODh/DsV/zYgV0w4fpmjwzy/ya9+pWr7Skx9w9dfzjVDf8Q/OVPD3mxVNnZOqJHr9N17L7gWkXm0k3fNl8NU9bdj8wwdjUUz1S7VwWVf62xU4vzrpvfuXopT5n9vQfgb8SHH8SmQlOM/NRJ4yOM6NPEw3d3GFezTOdPWNf6QeL1yYYbpj1T7USNTb2Khm8d3Xuk8Gab7PMM58HcfLd3ds8jmu2XnGyLIO7Z/PsMi+DBh7yAAAAAAAAAAAAAAAAAAAAAAAAAADgP/MbrIBtvHYXa2sAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

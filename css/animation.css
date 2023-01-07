@@ -112,12 +112,12 @@ data-aos="flip-left" */
   display: inline-block;
   background: #2b2a29;
     border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   text-align: center;
   position: fixed;
-  bottom: 100px;
-  right: 30px;
+  bottom: 32px;
+  right: 8px;
   transition: background-color .3s, 
   opacity .5s, visibility .5s;
   opacity: 0;
@@ -127,7 +127,7 @@ data-aos="flip-left" */
 #button::after {
   content: "\f077";
   font-family: FontAwesome;
-  font-size: 20px;
+  font-size: 12px;
   color: #fff;
 }
 #button:hover {
