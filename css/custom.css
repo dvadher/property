@@ -257,7 +257,7 @@ a:hover {
 }
 
 .footer-logo {
-  width: 134px;
+  width: 300px;
 }
 
 .nav-brand img {
@@ -277,14 +277,16 @@ a:hover {
   position: absolute;
   right: 0;
   width: 50% !important;
-  top: 0
+  top: 0;
+  height: 100% !important;
 }
 
 .map-block iframe {
   width: 100%;
+  height: 100%;
 }
 
-section.sponser {
+section.sponser, section.location {
   background: #F5F5F5;
   padding: 30px 0px;
 }
@@ -300,7 +302,7 @@ section.associate-sponser img {
 }
 
 section.sponser img,
-.presnting-sponser img {
+.presnting-sponser img, section.primium-sponser img {
   height: 130px;
 }
 
@@ -572,9 +574,15 @@ label span {
 section.associate-sponser .img-block, .row.logo-block .img-block, .row.co-sponser .img-block, .row.premium-sponser .img-block{
   text-align:center;
 }
+section.location {
+  padding-bottom: 0 !important;
+}
 /*=================================== media query css ===================================*/
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+  body{
+    overflow-x: hidden !important;
+  }
 
   .fixed-social-icons {
     top: auto;
@@ -676,6 +684,7 @@ section.associate-sponser .img-block, .row.logo-block .img-block, .row.co-sponse
     position: unset;
     right: 0;
     width: 100% !important;
+    height: 100%;
   }
 
   .location-row {
@@ -696,7 +705,7 @@ section.associate-sponser .img-block, .row.logo-block .img-block, .row.co-sponse
 
   section.sponser img,
   .presnting-sponser img,
-  section.associate-sponser img {
+  section.associate-sponser img, section.primium-sponser img {
     height: 80px;
   }
 
